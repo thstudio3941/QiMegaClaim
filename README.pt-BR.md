@@ -36,8 +36,8 @@ Se encontrar um problema, exporte o **LOG** e envie-o por e-mail para **thstudio
 ## Como usar
 
 Após confirmar que está conectado, clique em **Adicionar todos**. Para outras configurações, consulte o botão de ajuda **!** no canto superior direito da barra de controles inferior.
-
 Para atualizar, recarregue a extensão na página de extensões e atualize a página do Fab. Não é necessário desinstalar.
+<img width="4801" height="3104" alt="MTR＿Photo＿QuixelMegascans-QiMegaClaim-02_Edit" src="https://github.com/user-attachments/assets/51b5eada-2578-4af0-a7e0-64c3b7062ba4" />
 
 ## Contato
 
