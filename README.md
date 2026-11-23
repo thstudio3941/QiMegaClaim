@@ -36,8 +36,8 @@
 ## 使用方式
 
 確認已登入後，直接按下「**一鍵入庫**」。其他設定說明可參考操作橫欄右上角的「**！**」按鈕。
-
 更新版本時，在擴充功能管理頁面按重新載入，再刷新 Fab 網頁即可，不必移除重裝。
+<img width="1728" height="1117" alt="MTR＿Photo＿QuixelMegascans-QiMegaClaim" src="https://github.com/user-attachments/assets/35405fb5-77c3-43ef-952b-4867c2eeefa4" />
 
 ## 聯絡
 
