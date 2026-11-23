@@ -36,8 +36,9 @@ If you encounter a problem, export the **LOG** and email it to **thstudio3419@pm
 ## Usage
 
 Once signed in, click **Claim all**. For other settings, click the **!** help button at the upper right of the extension’s bottom toolbar.
-
 To update, reload the extension on Chrome’s extensions page and refresh Fab. You do not need to uninstall it.
+<img width="4801" height="3104" alt="MTR＿Photo＿QuixelMegascans-QiMegaClaim-02_Edit" src="https://github.com/user-attachments/assets/51b5eada-2578-4af0-a7e0-64c3b7062ba4" />
+
 
 ## Contact
 
