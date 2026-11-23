@@ -1,0 +1,252 @@
+{
+  "description": {
+    "message": "Batch-add free Quixel Megascans assets to your Fab library."
+  },
+  "popupIntro": {
+    "message": "Use the bottom toolbar on Quixel Megascans to scan and claim."
+  },
+  "openFab": {
+    "message": "Open Quixel Megascans"
+  },
+  "scanned": {
+    "message": "Discovered assets"
+  },
+  "owned": {
+    "message": "In library (incl. downloaded)"
+  },
+  "pending": {
+    "message": "Pending"
+  },
+  "unknown": {
+    "message": "Not yet checked"
+  },
+  "skipped": {
+    "message": "Skipped / manual"
+  },
+  "failed": {
+    "message": "Failed / retryable"
+  },
+  "run": {
+    "message": "Claim all"
+  },
+  "scan": {
+    "message": "Scan asset library"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "export": {
+    "message": "Export progress & log"
+  },
+  "login": {
+    "message": "Check login"
+  },
+  "concurrencyLabel": {
+    "message": "Items per batch (suggested: 3–6)"
+  },
+  "intervalLabel": {
+    "message": "Delay between batches (ms)"
+  },
+  "helpBtn": {
+    "message": "Help"
+  },
+  "hide": {
+    "message": "Collapse toolbar"
+  },
+  "loggedIn": {
+    "message": "Login confirmed"
+  },
+  "unverified": {
+    "message": "Login unverified"
+  },
+  "ready": {
+    "message": "Ready. Scan first or claim all."
+  },
+  "scanning": {
+    "message": "Scan only: reading catalog pages and checking ownership without adding assets."
+  },
+  "claiming": {
+    "message": "Scanning and claiming with the configured settings."
+  },
+  "pausing": {
+    "message": "Pausing; waiting for in-flight requests and saving progress."
+  },
+  "paused": {
+    "message": "Paused and saved. Resume continues the previous task; main buttons can continue or switch tasks."
+  },
+  "finished": {
+    "message": "Run complete. Scan asset library refreshes the catalog; inspect skipped items in the export."
+  },
+  "finishedErrors": {
+    "message": "Run ended with unfinished items. Run again to retry; export the log for details."
+  },
+  "scanFinished": {
+    "message": "Scan complete. Claim all processes pending assets and checks unknown prices before saving."
+  },
+  "rateInfo": {
+    "message": "Batch setting: $arg1$ ms · Actual batch delay: $arg2$ ms · $arg3$ · Server Retry-After: $arg4$ · Cooldown: $arg5$ s",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      },
+      "arg4": {
+        "content": "$4"
+      },
+      "arg5": {
+        "content": "$5"
+      }
+    }
+  },
+  "notProvided": {
+    "message": "not supplied"
+  },
+  "seconds": {
+    "message": "$arg1$ s",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorStatus": {
+    "message": "Stopped: $arg1$ $arg2$. Saved progress remains local; export the log.",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "loginRequired": {
+    "message": "Sign in to Fab and accept the latest terms manually"
+  },
+  "forbidden": {
+    "message": "Fab denied access; complete verification / terms on the site"
+  },
+  "csrfMissing": {
+    "message": "CSRF missing; reload and check login"
+  },
+  "accountChanged": {
+    "message": "Account changed; check login again"
+  },
+  "schema": {
+    "message": "Fab response format changed; compatibility update needed"
+  },
+  "sellerMismatch": {
+    "message": "Seller or listing ID does not match Quixel Megascans"
+  },
+  "rateStopped": {
+    "message": "Repeated rate limits; cooldown retained, try later"
+  },
+  "cursorLoop": {
+    "message": "Fab pagination repeated or stalled; resume later."
+  },
+  "storageError": {
+    "message": "Cannot read/write local progress; check extension storage"
+  },
+  "wrongPage": {
+    "message": "Open the Quixel Megascans seller page"
+  },
+  "otherTab": {
+    "message": "Another Fab tab is running; pause it first"
+  },
+  "network": {
+    "message": "Network or extension connection interrupted"
+  },
+  "timeout": {
+    "message": "Request timed out; next run will recheck ownership"
+  },
+  "uncertain": {
+    "message": "Claim result unconfirmed; next run will recheck"
+  },
+  "httpError": {
+    "message": "Fab returned an HTTP error"
+  },
+  "noFreeOffer": {
+    "message": "No confirmed zero-price library offer; inspect manually"
+  },
+  "helpText": {
+    "message": "This extension saves manual work by quickly adding Megascans assets to your Library.\n\nBefore your first run, confirm that you are signed in. Two actions are available after signing in:\n1. Claim all: scan the catalog and add assets to your Library as scanning progresses.\n2. Scan catalog only: scan the catalog without adding assets to your Library.\n\nSet the delay between batches (suggested: 300 ms or more) and the number of items per batch (suggested: 3–10). Larger batches should use longer delays. Once every task in a batch finishes, the extension waits for the configured delay before starting the next batch.\n\nSuggested settings (items per batch: delay between batches):\n3–5 items: 300 ms\n6–10 items: 500–800 ms\n\nThese are starting points, not a guarantee against server rate limits. If a limit is triggered, the extension automatically increases the batch delay and updates the input and status notice. You can also pause, increase the delay manually, and resume.\n\nThis extension only adds free assets to your Library; it does not download model files.\n\nIf you encounter a problem, export the LOG and email it to thstudio3419@pm.me."
+  },
+  "close": {
+    "message": "Close"
+  },
+  "checkingLogin": {
+    "message": "Checking login automatically…"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "nothingToResume": {
+    "message": "No interrupted task. Choose Scan asset library or Claim all."
+  },
+  "unknownPrice": {
+    "message": "Listing price unknown; detailed offer will be checked before claiming"
+  },
+  "total": {
+    "message": "Total assets"
+  },
+  "totalUnavailable": {
+    "message": "Reliable total unavailable; scanned count is not used as a substitute."
+  },
+  "totalLive": {
+    "message": "Server total for this seller, not the scanned or free-asset count."
+  },
+  "totalCached": {
+    "message": "Last server total; currently using cached data."
+  },
+  "totalCachedSuffix": {
+    "message": " (cached)"
+  },
+  "preparing": {
+    "message": "Refreshing the catalog total, then checking the account Library if needed…"
+  },
+  "scanAndClaim": {
+    "message": "Running: catalog discovery, ownership checks and claims use separate concurrent queues."
+  },
+  "backoffActive": {
+    "message": "rate-limit backoff active"
+  },
+  "backoffInactive": {
+    "message": "no rate-limit backoff"
+  },
+  "ownedUnverified": {
+    "message": "Awaiting update"
+  },
+  "ownedScope": {
+    "message": "Quixel Megascans assets in this account’s Library, including assets acquired before installation; independent of discovery progress."
+  },
+  "updatingLibrary": {
+    "message": "Updating account Library: $arg1$ pages read, $arg2$ Quixel assets confirmed. Catalog scanning and claiming start after this check.",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "rateAdjusted": {
+    "message": "HTTP $arg3$ triggered backoff: batch delay automatically increased from $arg1$ to $arg2$ ms; the input and saved setting were updated.",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      }
+    }
+  }
+}

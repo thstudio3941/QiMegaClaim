@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "CP-001 QiMegaClaim ©THS",
+  "description": "__MSG_description__",
+  "version": "0.1.14",
+  "minimum_chrome_version": "111",
+  "default_locale": "zh_TW",
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.fab.com/*"
+  ],
+  "background": {
+    "service_worker": "background ©THS.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "QiMegaClaim ©THS",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "64": "icons/icon64.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png",
+    "512": "icons/icon512.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.fab.com/*"
+      ],
+      "js": [
+        "core.js",
+        "content ©THS.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

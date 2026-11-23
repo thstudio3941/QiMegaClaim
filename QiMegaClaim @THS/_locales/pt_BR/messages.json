@@ -1,0 +1,252 @@
+{
+  "description": {
+    "message": "Adicione Quixel Megascans gratuitos à biblioteca Fab em lote."
+  },
+  "popupIntro": {
+    "message": "Use a barra inferior em Quixel Megascans para verificar e adicionar."
+  },
+  "openFab": {
+    "message": "Abrir Quixel Megascans"
+  },
+  "scanned": {
+    "message": "Materiais encontrados"
+  },
+  "owned": {
+    "message": "Na biblioteca (inclui baixados)"
+  },
+  "pending": {
+    "message": "Pendentes"
+  },
+  "unknown": {
+    "message": "Ainda não verificados"
+  },
+  "skipped": {
+    "message": "Ignorados / ação manual"
+  },
+  "failed": {
+    "message": "Falhas / tentar novamente"
+  },
+  "run": {
+    "message": "Adicionar todos"
+  },
+  "scan": {
+    "message": "Verificar biblioteca"
+  },
+  "pause": {
+    "message": "Pausar"
+  },
+  "export": {
+    "message": "Exportar progresso e log"
+  },
+  "login": {
+    "message": "Verificar login"
+  },
+  "concurrencyLabel": {
+    "message": "Itens por lote (sugerido: 3–6)"
+  },
+  "intervalLabel": {
+    "message": "Espera entre lotes (ms)"
+  },
+  "helpBtn": {
+    "message": "Ajuda"
+  },
+  "hide": {
+    "message": "Recolher barra"
+  },
+  "loggedIn": {
+    "message": "Login confirmado"
+  },
+  "unverified": {
+    "message": "Login não confirmado"
+  },
+  "ready": {
+    "message": "Pronto. Verifique primeiro ou adicione todos."
+  },
+  "scanning": {
+    "message": "Só verificar: consultando páginas e aquisições sem adicionar materiais."
+  },
+  "claiming": {
+    "message": "Verificando e adicionando conforme as configurações."
+  },
+  "pausing": {
+    "message": "Pausando; aguardando solicitações em andamento e salvando o progresso."
+  },
+  "paused": {
+    "message": "Pausado e salvo. Continuar retoma a tarefa anterior; os botões principais também permitem trocar a tarefa."
+  },
+  "finished": {
+    "message": "Concluído. Verificar biblioteca atualiza o catálogo; consulte os ignorados na exportação."
+  },
+  "finishedErrors": {
+    "message": "Há itens pendentes. Execute novamente para tentar; exporte o log para detalhes."
+  },
+  "scanFinished": {
+    "message": "Verificação concluída. Adicionar todos confere preços desconhecidos antes de salvar."
+  },
+  "rateInfo": {
+    "message": "Lote configurado: $arg1$ ms · Espera real entre lotes: $arg2$ ms · $arg3$ · Retry-After: $arg4$ · Resfriamento: $arg5$ s",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      },
+      "arg4": {
+        "content": "$4"
+      },
+      "arg5": {
+        "content": "$5"
+      }
+    }
+  },
+  "notProvided": {
+    "message": "não informado"
+  },
+  "seconds": {
+    "message": "$arg1$ s",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorStatus": {
+    "message": "Interrompido: $arg1$ $arg2$. O progresso salvo permanece local; exporte o log.",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "loginRequired": {
+    "message": "Entre no Fab e aceite os termos atuais manualmente"
+  },
+  "forbidden": {
+    "message": "Fab negou acesso; conclua a verificação / aceite os termos no site"
+  },
+  "csrfMissing": {
+    "message": "CSRF ausente; recarregue e verifique o login"
+  },
+  "accountChanged": {
+    "message": "Conta alterada; verifique o login novamente"
+  },
+  "schema": {
+    "message": "Formato de resposta Fab alterado; atualização necessária"
+  },
+  "sellerMismatch": {
+    "message": "Vendedor ou ID não corresponde a Quixel Megascans"
+  },
+  "rateStopped": {
+    "message": "Limites repetidos; espera preservada, tente mais tarde"
+  },
+  "cursorLoop": {
+    "message": "Paginação Fab repetida ou travada; tente novamente mais tarde."
+  },
+  "storageError": {
+    "message": "Não foi possível ler/gravar o progresso; verifique o armazenamento"
+  },
+  "wrongPage": {
+    "message": "Abra a página do vendedor Quixel Megascans"
+  },
+  "otherTab": {
+    "message": "Outra aba Fab está executando; pause-a primeiro"
+  },
+  "network": {
+    "message": "Conexão de rede ou extensão interrompida"
+  },
+  "timeout": {
+    "message": "Solicitação expirou; o estado será verificado na próxima execução"
+  },
+  "uncertain": {
+    "message": "Resultado não confirmado; será verificado na próxima execução"
+  },
+  "httpError": {
+    "message": "Fab retornou um erro HTTP"
+  },
+  "noFreeOffer": {
+    "message": "Sem oferta de preço zero confirmada; verifique manualmente"
+  },
+  "helpText": {
+    "message": "Esta extensão reduz o trabalho manual e permite adicionar rapidamente recursos Megascans à sua Library.\n\nAntes da primeira execução, confirme que você está conectado. Após entrar, há duas opções:\n1. Adicionar todos: verifica o catálogo e adiciona os recursos à Library enquanto a verificação avança.\n2. Somente verificar: verifica o catálogo sem adicionar recursos à Library.\n\nConfigure a espera entre lotes (sugestão: a partir de 300 ms) e a quantidade de itens por lote (sugestão: 3–10). Quanto maior o lote, maior deve ser a espera. Após todas as tarefas de um lote terminarem, a extensão aguarda o intervalo configurado antes de iniciar o próximo lote.\n\nConfigurações de referência (itens por lote: espera entre lotes):\n3–5 itens: 300 ms\n6–10 itens: 500–800 ms\n\nEsses valores são referências e não garantem evitar os limites do servidor. Se ocorrer uma limitação, a extensão aumenta automaticamente a espera e atualiza o campo e o aviso de status. Você também pode pausar, aumentar a espera manualmente e continuar.\n\nA extensão apenas adiciona recursos gratuitos à Library; ela não baixa os arquivos dos modelos.\n\nSe encontrar um problema, exporte o LOG e envie-o por e-mail para thstudio3419@pm.me."
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "checkingLogin": {
+    "message": "Verificando login automaticamente…"
+  },
+  "resume": {
+    "message": "Continuar"
+  },
+  "nothingToResume": {
+    "message": "Não há tarefa interrompida. Escolha verificar ou adicionar."
+  },
+  "unknownPrice": {
+    "message": "Preço desconhecido; a oferta será verificada antes de adicionar"
+  },
+  "total": {
+    "message": "Total de materiais"
+  },
+  "totalUnavailable": {
+    "message": "Total confiável indisponível; não será substituído pelo número verificado."
+  },
+  "totalLive": {
+    "message": "Total do vendedor no servidor, não a quantidade verificada ou gratuita."
+  },
+  "totalCached": {
+    "message": "Último total do servidor; usando cache temporariamente."
+  },
+  "totalCachedSuffix": {
+    "message": " (cache)"
+  },
+  "preparing": {
+    "message": "Atualizando o total do catálogo e consultando a Library se necessário…"
+  },
+  "scanAndClaim": {
+    "message": "Executando: descoberta, verificação e adição usam filas separadas e simultâneas."
+  },
+  "backoffActive": {
+    "message": "espera por limite ativa"
+  },
+  "backoffInactive": {
+    "message": "sem espera por limite"
+  },
+  "ownedUnverified": {
+    "message": "Aguardando atualização"
+  },
+  "ownedScope": {
+    "message": "Recursos Quixel Megascans na Library desta conta, incluindo os adquiridos antes da instalação; independente da descoberta atual."
+  },
+  "updatingLibrary": {
+    "message": "Atualizando a Library da conta: $arg1$ páginas lidas, $arg2$ recursos Quixel confirmados. A varredura e as adições começam após esta verificação.",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "rateAdjusted": {
+    "message": "HTTP $arg3$ acionou recuo: espera entre lotes aumentada de $arg1$ para $arg2$ ms; campo e configuração salva atualizados.",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      }
+    }
+  }
+}

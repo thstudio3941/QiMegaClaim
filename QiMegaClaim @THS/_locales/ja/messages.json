@@ -1,0 +1,252 @@
+{
+  "description": {
+    "message": "無料 Quixel Megascans 素材を Fab ライブラリに一括追加。"
+  },
+  "popupIntro": {
+    "message": "Quixel Megascans ページ下部のバーでスキャン・追加できます。"
+  },
+  "openFab": {
+    "message": "Quixel Megascans を開く"
+  },
+  "scanned": {
+    "message": "検出した素材"
+  },
+  "owned": {
+    "message": "取得済み（DL済みを含む）"
+  },
+  "pending": {
+    "message": "未取得"
+  },
+  "unknown": {
+    "message": "未確認"
+  },
+  "skipped": {
+    "message": "スキップ・手動操作"
+  },
+  "failed": {
+    "message": "失敗・再試行可能"
+  },
+  "run": {
+    "message": "一括追加"
+  },
+  "scan": {
+    "message": "素材ライブラリをスキャン"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "export": {
+    "message": "進捗・ログを書き出す"
+  },
+  "login": {
+    "message": "ログイン確認"
+  },
+  "concurrencyLabel": {
+    "message": "バッチ処理数（推奨3–6）"
+  },
+  "intervalLabel": {
+    "message": "バッチ間の待機時間（ms）"
+  },
+  "helpBtn": {
+    "message": "説明"
+  },
+  "hide": {
+    "message": "バーを折りたたむ"
+  },
+  "loggedIn": {
+    "message": "ログイン確認済み"
+  },
+  "unverified": {
+    "message": "ログイン未確認"
+  },
+  "ready": {
+    "message": "準備完了。スキャンまたは一括追加を開始できます。"
+  },
+  "scanning": {
+    "message": "スキャンのみ：ページと取得状況を確認します。素材の追加は行いません。"
+  },
+  "claiming": {
+    "message": "設定に従ってスキャン・追加中。"
+  },
+  "pausing": {
+    "message": "一時停止中。送信済みの処理を待ち、進捗を保存します。"
+  },
+  "paused": {
+    "message": "一時停止し保存しました。再開で前の処理を続けるか、主ボタンで処理を選択できます。"
+  },
+  "finished": {
+    "message": "処理完了。素材ライブラリをスキャンして一覧を更新できます。"
+  },
+  "finishedErrors": {
+    "message": "未完了の項目があります。再実行で再試行できます。詳細はログにあります。"
+  },
+  "scanFinished": {
+    "message": "スキャン完了。一括追加で未取得を処理し、不明な価格は追加前に確認します。"
+  },
+  "rateInfo": {
+    "message": "バッチ設定 $arg1$ ms・実際の待機時間 $arg2$ ms・$arg3$・Retry-After：$arg4$・冷却残り $arg5$ 秒",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      },
+      "arg4": {
+        "content": "$4"
+      },
+      "arg5": {
+        "content": "$5"
+      }
+    }
+  },
+  "notProvided": {
+    "message": "未提供"
+  },
+  "seconds": {
+    "message": "$arg1$ 秒",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorStatus": {
+    "message": "停止：$arg1$ $arg2$。保存済みの進捗を保持します。ログを書き出せます。",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "loginRequired": {
+    "message": "Fab にログインし、最新の規約を手動で確認してください"
+  },
+  "forbidden": {
+    "message": "Fab がアクセスを拒否しました。サイトで認証・規約確認を行ってください"
+  },
+  "csrfMissing": {
+    "message": "CSRF がありません。再読み込みしてログインを確認してください"
+  },
+  "accountChanged": {
+    "message": "アカウントが変更されました。ログインを再確認してください"
+  },
+  "schema": {
+    "message": "Fab の応答形式が異なります。互換性更新が必要です"
+  },
+  "sellerMismatch": {
+    "message": "販売者または素材 ID が Quixel Megascans と一致しません"
+  },
+  "rateStopped": {
+    "message": "制限が繰り返されました。待機時間を保持します。後で再開してください"
+  },
+  "cursorLoop": {
+    "message": "Fab のページ送りが重複・停止しました。後で再試行してください。"
+  },
+  "storageError": {
+    "message": "進捗を読み書きできません。保存領域を確認してください"
+  },
+  "wrongPage": {
+    "message": "指定の Quixel Megascans 販売者ページを開いてください"
+  },
+  "otherTab": {
+    "message": "別の Fab タブで実行中です。先に一時停止してください"
+  },
+  "network": {
+    "message": "ネットワークまたは拡張機能の接続が切れました"
+  },
+  "timeout": {
+    "message": "時間切れです。次回に取得状況を確認します"
+  },
+  "uncertain": {
+    "message": "追加結果を確認できません。次回に再確認します"
+  },
+  "httpError": {
+    "message": "Fab が HTTP エラーを返しました"
+  },
+  "noFreeOffer": {
+    "message": "確認済みの無料オファーがありません。手動で確認してください"
+  },
+  "helpText": {
+    "message": "この拡張機能は手作業を減らし、Megascans 素材を Library にすばやく追加するためのものです。\n\n初回実行前にログイン状態を確認してください。ログイン後は次の2つの機能を使えます。\n1. 一括追加：素材一覧をスキャンしながら Library に追加します。\n2. スキャンのみ：素材一覧をスキャンし、Library への追加は行いません。\n\nバッチ間の待機時間（推奨300 ms以上）とバッチ処理数（推奨3～10件）を設定できます。件数が多いほど、待機時間を長くすることをおすすめします。バッチ内の全処理が完了してから設定時間を待ち、次のバッチを開始します。\n\n設定の目安（バッチ処理数：待機時間）：\n3～5件：300 ms\n6～10件：500～800 ms\n\nこれらは参考値であり、公式のレート制限を回避できる保証はありません。制限が発生すると、拡張機能は待機時間を自動的に延長し、入力欄と状態表示を更新します。一時停止して手動で待機時間を長くしてから再開することもできます。\n\n無料素材を Library に追加する機能であり、モデルファイルのダウンロードは行いません。\n\n問題が発生した場合は「LOG」をエクスポートし、thstudio3419@pm.me へメールでお送りください。"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "checkingLogin": {
+    "message": "ログインを自動確認中…"
+  },
+  "resume": {
+    "message": "再開"
+  },
+  "nothingToResume": {
+    "message": "再開できる処理がありません。スキャンまたは一括追加を選択してください。"
+  },
+  "unknownPrice": {
+    "message": "一覧の価格が不明です。追加前に詳細を確認します。"
+  },
+  "total": {
+    "message": "素材総数"
+  },
+  "totalUnavailable": {
+    "message": "正確な総数は未取得です。検出数を総数として使いません。"
+  },
+  "totalLive": {
+    "message": "販売者のサーバー総数です。スキャン数・無料素材数とは異なります。"
+  },
+  "totalCached": {
+    "message": "前回取得したサーバー総数を一時的に表示しています。"
+  },
+  "totalCachedSuffix": {
+    "message": "（キャッシュ）"
+  },
+  "preparing": {
+    "message": "素材総数を更新し、必要に応じてアカウントの Library を確認します…"
+  },
+  "scanAndClaim": {
+    "message": "実行中：一覧取得・取得状況確認・追加を別々のキューで並行処理します。"
+  },
+  "backoffActive": {
+    "message": "制限による待機を適用中"
+  },
+  "backoffInactive": {
+    "message": "制限による待機なし"
+  },
+  "ownedUnverified": {
+    "message": "更新待ち"
+  },
+  "ownedScope": {
+    "message": "インストール前に追加したものも含む、このアカウントの Library 内の Quixel Megascans 素材数です。今回の検出数とは別です。"
+  },
+  "updatingLibrary": {
+    "message": "アカウントの Library を更新中：$arg1$ ページを読み込み、Quixel 素材 $arg2$ 件を確認。完了後にスキャンと追加を開始します。",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "rateAdjusted": {
+    "message": "HTTP $arg3$ によりバックオフ：バッチ間隔を $arg1$ から $arg2$ ミリ秒へ自動調整し、入力欄と保存設定を更新しました。",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      }
+    }
+  }
+}

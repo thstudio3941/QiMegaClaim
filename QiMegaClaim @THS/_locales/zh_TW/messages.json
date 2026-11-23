@@ -1,0 +1,252 @@
+{
+  "description": {
+    "message": "將 Fab 上免費 Quixel Megascans 素材批次加入 Library。"
+  },
+  "popupIntro": {
+    "message": "在 Quixel Megascans 頁面使用底部橫欄掃描與入庫。"
+  },
+  "openFab": {
+    "message": "開啟 Quixel Megascans"
+  },
+  "scanned": {
+    "message": "已掃描素材"
+  },
+  "owned": {
+    "message": "已入庫（含已下載）"
+  },
+  "pending": {
+    "message": "待入庫"
+  },
+  "unknown": {
+    "message": "待查證狀態"
+  },
+  "skipped": {
+    "message": "略過／需手動處理"
+  },
+  "failed": {
+    "message": "失敗／可重試"
+  },
+  "run": {
+    "message": "一鍵入庫"
+  },
+  "scan": {
+    "message": "僅掃描素材庫"
+  },
+  "pause": {
+    "message": "暫停"
+  },
+  "export": {
+    "message": "匯出進度與 LOG"
+  },
+  "login": {
+    "message": "檢查登入"
+  },
+  "concurrencyLabel": {
+    "message": "每批處理數量（建議3-6）"
+  },
+  "intervalLabel": {
+    "message": "批次間隔（毫秒）"
+  },
+  "helpBtn": {
+    "message": "說明"
+  },
+  "hide": {
+    "message": "收合橫欄"
+  },
+  "loggedIn": {
+    "message": "已確認登入"
+  },
+  "unverified": {
+    "message": "尚未確認登入"
+  },
+  "ready": {
+    "message": "就緒。可先僅掃描，或按一鍵入庫。"
+  },
+  "scanning": {
+    "message": "僅掃描素材庫：逐頁讀取清單並查證入庫狀態，不執行入庫。"
+  },
+  "claiming": {
+    "message": "正在依設定掃描並入庫。"
+  },
+  "pausing": {
+    "message": "正在暫停；等待已送出的請求收尾並儲存進度。"
+  },
+  "paused": {
+    "message": "已暫停，進度已儲存。按繼續接續原程序；也可選擇僅掃描素材庫或一鍵入庫。"
+  },
+  "finished": {
+    "message": "本輪完成。僅掃描素材庫可更新清單；略過項目請查看匯出紀錄。"
+  },
+  "finishedErrors": {
+    "message": "本輪結束，仍有未完成項目。再次執行可重試，詳情請匯出 LOG。"
+  },
+  "scanFinished": {
+    "message": "掃描完成。可按一鍵入庫處理待入庫素材；價格不明的項目會在入庫前查證。"
+  },
+  "rateInfo": {
+    "message": "批次設定 $arg1$ 毫秒 · 批次實際 $arg2$ 毫秒 · $arg3$ · 官方 Retry-After：$arg4$ · 冷卻剩餘 $arg5$ 秒",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      },
+      "arg4": {
+        "content": "$4"
+      },
+      "arg5": {
+        "content": "$5"
+      }
+    }
+  },
+  "notProvided": {
+    "message": "未提供"
+  },
+  "seconds": {
+    "message": "$arg1$ 秒",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorStatus": {
+    "message": "已停止：$arg1$ $arg2$。已儲存進度保留於本機，可匯出 LOG。",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "loginRequired": {
+    "message": "請先登入 Fab 並手動確認最新條款"
+  },
+  "forbidden": {
+    "message": "Fab 拒絕存取；請在網頁完成驗證／條款後再試"
+  },
+  "csrfMissing": {
+    "message": "缺少 CSRF；請重新整理並確認登入"
+  },
+  "accountChanged": {
+    "message": "帳號已變更，請重新檢查登入"
+  },
+  "schema": {
+    "message": "Fab 資料格式不符預期，需更新相容介面"
+  },
+  "sellerMismatch": {
+    "message": "素材賣家或 ID 不符 Quixel Megascans"
+  },
+  "rateStopped": {
+    "message": "連續限流；保留等待時間，稍後再執行"
+  },
+  "cursorLoop": {
+    "message": "Fab 分頁重複或異常，稍後可繼續原程序。"
+  },
+  "storageError": {
+    "message": "無法讀寫本機進度，請檢查擴充功能儲存空間"
+  },
+  "wrongPage": {
+    "message": "請前往 Quixel Megascans 指定賣家頁面"
+  },
+  "otherTab": {
+    "message": "另一個 Fab 分頁正在執行，請先在該分頁暫停"
+  },
+  "network": {
+    "message": "網路或擴充功能連線中斷"
+  },
+  "timeout": {
+    "message": "請求逾時；下次執行會先查證入庫狀態"
+  },
+  "uncertain": {
+    "message": "入庫結果未確認，下次會先查證"
+  },
+  "httpError": {
+    "message": "Fab 回傳 HTTP 錯誤"
+  },
+  "noFreeOffer": {
+    "message": "目前沒有已確認的零元入庫方案，請手動檢查"
+  },
+  "helpText": {
+    "message": "此擴展用於節省人工操作，快速將 Megascans 素材加入 Library。\n\n首次執行請先確認登入狀態。登入後可使用以下兩種功能：\n1. 一鍵入庫：邊掃描素材庫，邊進行入庫作業。\n2. 僅掃描素材庫：單純掃描素材庫，不進行入庫。\n\n可設定批次間隔（建議 300ms 起）與每批處理數量（建議 3～10 個）。數量越多，建議拉長間隔。本批次全部處理完成後，才等待設定的間隔並開始下一批次。\n\n設定參考（每批處理數量：批次間隔）：\n3～5 個：300ms\n6～10 個：500～800ms\n\n以上為參考值，不保證不會觸發官方限流。若觸發限制，腳本會自動延長批次間隔，同步更新輸入欄位與狀態提示；也可暫停後手動提高間隔，再繼續執行。\n\n本擴展只將免費素材加入 Library，不下載模型檔案。\n\n若遇到異常問題，請先匯出「LOG」，並寄信至 thstudio3419@pm.me。"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "checkingLogin": {
+    "message": "正在自動檢查登入…"
+  },
+  "resume": {
+    "message": "繼續"
+  },
+  "nothingToResume": {
+    "message": "目前沒有可接續的程序，請先選擇僅掃描素材庫或一鍵入庫。"
+  },
+  "unknownPrice": {
+    "message": "清單價格不明，入庫前需查證詳細方案"
+  },
+  "total": {
+    "message": "素材總數"
+  },
+  "totalUnavailable": {
+    "message": "尚未取得可靠總數；不以已掃描數量替代。"
+  },
+  "totalLive": {
+    "message": "Fab 賣家目錄的伺服器總數，不代表已掃描或免費素材數。"
+  },
+  "totalCached": {
+    "message": "上次取得的伺服器總數，暫時使用快取。"
+  },
+  "totalCachedSuffix": {
+    "message": "（快取）"
+  },
+  "preparing": {
+    "message": "正在更新素材總數，接著依需要盤點帳號 Library…"
+  },
+  "scanAndClaim": {
+    "message": "執行中：清單抓取、狀態查證與入庫分開排程，持續並行處理。"
+  },
+  "backoffActive": {
+    "message": "限流退避已啟用"
+  },
+  "backoffInactive": {
+    "message": "未啟用限流退避"
+  },
+  "ownedUnverified": {
+    "message": "待更新"
+  },
+  "ownedScope": {
+    "message": "帳號 Library 中的 Quixel Megascans 素材，包含安裝前已入庫的項目；不是本次已掃描數。"
+  },
+  "updatingLibrary": {
+    "message": "正在更新帳號已入庫資訊：已讀取 $arg1$ 頁，已確認 $arg2$ 個 Quixel 素材；完成後才開始掃描與入庫。",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "rateAdjusted": {
+    "message": "因 HTTP $arg3$ 觸發退避，批次間隔已自動由 $arg1$ 調高至 $arg2$ 毫秒；輸入欄位與設定已同步儲存。",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      },
+      "arg3": {
+        "content": "$3"
+      }
+    }
+  }
+}
