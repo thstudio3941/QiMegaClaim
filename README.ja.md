@@ -37,7 +37,7 @@
 
 ログインを確認したら「**一括追加**」を押してください。その他の設定は、下部の操作バー右上にある「**！**」の説明を参照してください。
 更新時は拡張機能管理ページで再読み込みし、Fab ページを更新してください。削除して再インストールする必要はありません。
-<img width="1728" height="1117" alt="MTR＿Photo＿QuixelMegascans-QiMegaClaim" src="https://github.com/user-attachments/assets/35405fb5-77c3-43ef-952b-4867c2eeefa4" />
+<img width="4801" height="3104" alt="MTR＿Photo＿QuixelMegascans-QiMegaClaim-02_Edit" src="https://github.com/user-attachments/assets/51b5eada-2578-4af0-a7e0-64c3b7062ba4" />
 
 ## お問い合わせ
 
